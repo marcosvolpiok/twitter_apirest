@@ -1,13 +1,14 @@
-=Instalación=
+**Instalación**
 
 En una consola posicionarse en el directorio "public" y ejecutar el comando:
 
 	php -S localhost:9999 -t . index.php
 
-Ejecutará en la siguiente URL: http://localhost:9999 la API REST.
+Ejecutará en el siguiente endpoint: http://localhost:9999 la API REST.
 
 
-=tweets/{username}=
+**tweets/{username}**
+
 Devuelve últimos 10 tweets de usuario espepecificado.
 
 Ejemplo:
@@ -17,6 +18,7 @@ http://localhost:9999/tweets/cuervotinelli
 
 
 Respuesta:
+
 	[
 	  {
 	    "created_at": "Wed Jul 11 15:54:06 +0000 2018",
